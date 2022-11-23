@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sana-serif;
+}
+header{
+    width: 100%;
+    
+    display: flex ;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+.header__logo{
+    position: absolute;
+width: 76px;
+height: 30px;
+left: 92px;
+top: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+}
+nav{
+    display: inline;
+    margin: 0 auto;
+}
+.topnav a{
+    color: #fff;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+.topnav .icon{
+    display: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main_welcome{
+    background: url(img/1619786212_51-p-temnaya-gostinaya-ikea-57.png) 100%/cover no-repeat;
+  
+    width: 100%;
+    height: 821.04px;
+    position: relative;
+    
+    
+}
+.call_me{
+    display: flex;
+    flex-direction: column;
+}
+main .main_welcome p{
+    color: #fff;
+    font-size: 20px;
+}
+.main_welcome h1{
+position: absolute;
+width: 100%;
+height: 56px;
+left: 284px;
+top: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .main_welcome b{
+    color: #fcac45;
+}
+.wrapper{
+    
+    margin: 0 auto;
+}
+main .main_about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.one_left{
+position: absolute;
+width: 279px;
+height: 105px;
+left: 85px;
+top: 277px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 5px;
+}
+.two_left{
+    position: absolute;
+    width: 279px;
+    height: 105px;
+    left: 85px;
+    top: 439px;
+    
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+.three_left{
+    position: absolute;
+    width: 279px;
+    height: 105px;
+    left: 85px;
+    top: 601px;
+    
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+.about_right{
+    
+    position: absolute;
+width: 807px;
+height: 547px;
+left: 37%;
+top: 219px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+.about__right_forms{
+    display: block;
+}
+.about_right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom:20px;
+}
+
+.forms_right{
+    margin-left: 170px;  
+    display: block;
+}
+.forms_right  p{
+position: absolute;
+width: 360px;
+height: 30px;
+left: 67%;
+top: 310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+
+/* identical to box height, or 136% */
+
+color: #000000;
+
+
+}
+select{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 55px;
+   
+    
+    background: #F1F1F1;
+    border: 1px solid #003272;
+    border-radius: 60px;}
+    .main_team{
+    
+width: 100%;
+height: 776.52px;
+
+background: #FFFFFF;
+    }
+.main_team h1{
+        
+        width: 817px;
+        height: 30px;
+        left: 311px;
+        top: 62px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 30px;
+        
+        /* identical to box height, or 83% */
+        
+        color: #202020;}
+
+
+.main_team{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+.main_team h1{
+    font-size: 44px;
+    padding-bottom:30px;
+}
+.wrapper{       
+    width: 67%;
+    height: 478px;
+    left: 236px;
+    top: 24%;
+    
+    background:  url(img/1619786212_51-p-temnaya-gostinaya-ikea-57.png) 50%/cover no-repeat;
+    }
+    
+
+.line{
+    position: absolute;
+    width: 133px;
+    height: 10px;
+    left: 1360px;
+    top: 302px;
+    
+    background: #ED2A28;
+    transform: rotate(-180deg);
+}
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.team_cards{
+    display: flex;
+}
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main_services h1 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+.main_services p{
+    color:#000;
+    margin-bottom: 100px;
+}
+.services_card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+
+
+
+
+@media screen and (max-width: 1200px) { 
+    nav{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color:#fff;
+        font-size: 25px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a{
+    float: none;
+    display: block;
+    text-decoration: left;
+    }
+
+
+
+
+    main .main_welcome{
+        padding: 50px 0 50px 0;
+
+    }
+    main .main_welcome p{
+        font-size: 14px;
+        
+    }
+    main .main_welcome h1{
+        font-size: 25px;
+        
+    }
+    .mw-100{
+        max-width: 100%;
+    }
+    .main_about{
+        flex-direction: column;
+    }
+    .about_right{
+        text-align: center;
+        margin-left: 0px ;
+    }
+    .about_right li{
+        text-align: left;
+    }
+    .about_right h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .services_cards{
+        grid-template-columns:auto;
+    }
+}
