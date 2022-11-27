@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="header__logo"> 
-            <p>ЛОГОТИП</p>
+            <p>логотип</p>
             </div>
 <nav>
     <div class="topnav" id="myTopnav">
@@ -24,11 +28,15 @@
         <a href="#" id="menu" class="icon">&#9776;</a>
     </div>
 </nav>
-        <p>c 0:00 до 23:00</br>ежедневно</p>
+        <p class="call_p">c 0:00 до 23:00</br>ежедневно</p>
+        <div class="call">
+            <img src="img/Group_2.png" alt="">
         <div class="call_me">
+             
             <a href=”tel:+7 (965) 678 34 12”>+7 (965) 678 34 12</a>
             <a href=”tel:+7 (965) 678 34 12”>+7 (965) 678 34 12</a>
         </div>
+    </div>
        
 
     
@@ -38,6 +46,7 @@
 <div class="main_welcome">
     <h1>ЗАГОЛОВОК ЗАГОЛОВОК ЗАГОЛОВОК </h1>
     </div>
+   
     <div class="wraper">
 <div class="main_about">
     <div class="about_left">
@@ -63,7 +72,7 @@
         <div class="line"></div>
         <div class="about__right_forms">
         <div class = "forms_left">
-            <p>Что нужно отремонтировать</p>
+            <p><strong>Что нужно отремонтировать</strong></p>
             <form><select name="list1" >
                 <option>Вся квартира</option>
                 <option>Sed ut perspiciatis</option>
@@ -72,7 +81,7 @@
                 <option>Temporibus autem</option>
                 <option>Itaque earum rerum</option>
                </select>
-            <p>Вид ремонта</p>
+            <p><strong>Вид ремонта</strong></p>
             <select name="list1" >
                 <option>Косметический</option>
                 <option>Sed ut perspiciatis</option>
@@ -81,40 +90,48 @@
                 <option>Temporibus autem</option>
                 <option>Itaque earum rerum</option>
                </select>
-            <p>Тип недвижимости</p>
-            <label for ="radio1">
+            <p><strong>Тип недвижимости</strong></p>
+            <label for ="radio1" class="radio1">
                 <p> Новостройка 
             </label>
              <input id = "radio1"  name="radio" type="radio" ></p>
-             <label for ="radio2">
+             <label for ="radio2"class="radio2">
                 <p> Вторичная
             </label>
              <input id = "radio2"  name="radio" type="radio" ></p>
+             <div class="line2"></div>
+        <div class="line3"></div>
         </div>
+        
         <div class = "forms_right">
-            <p>Выберите дополнительные услуги</p>
+            
+            <p><strong> Выберите дополнительные услуги</strong></p>
+            <div class="checked">
+                <div>  
             <input type="checkbox" checked >
             <label>Выравнивание пола
-            </label>
-            <input type="checkbox" checked >
+            </label></div>
+            <div><input type="checkbox" checked >
             <label>Выравнивание стен
-            </label>
-            <input type="checkbox" checked >
-            <label>Выравнивание потолка</label>
-            <input type="checkbox" checked >
-            <label>Замена электрики</label>
-            <input type="checkbox" checked >
-            <input type="checkbox" checked ><label>Замена системы отопления</label>
-            <input type="checkbox" checked ><label>Материал нашей компании</label>
+            </label></div>
+            <div><input type="checkbox" checked >
+            <label>Выравнивание потолка</label></div>
+            <div><input type="checkbox" checked >
+            <label>Замена электрики</label></div>
+           
+            <div><input type="checkbox" checked ><label>Замена системы отопления</label></div>
+            <div><input type="checkbox" checked ><label>Материал нашей компании</label></div>
+        </div>
             
         </div>
     </div>
         <div>
+        </form>
 
-            <button type="submit">РАССЧИТАТЬ СТОИМОСТЬ</button>
+            <button type="submit" class="button1">РАССЧИТАТЬ СТОИМОСТЬ</button>
         
     </div>
-        </form>
+        
         </div>
          
     </div>
@@ -125,12 +142,16 @@
     
     <div class="main_team">
         
+       
         <h1> Что значит ремонт вместе с нашей компанией? </h1>
         <p>мы можем предложить вам то, что не предложит за такую цену никто!</p>
+        
         <div class="wrapper"> 
+            
         
         <div class="team_cards">
-        <div class="card">
+             
+            <div class="left_card">
             <div class="card_img">
             <img src="img/Group_33.png" alt="">
             <h1>Позвоните или оставьте заявку</h1>
@@ -142,21 +163,84 @@
             <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div>
             <div class="card_img"><img src="img/Group_33.png" alt="">
             <h1>Позвоните или оставьте заявку</h1>
-            <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div>
+            <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div></div>
+            <div class="rigth_card">
             <div class="card_img"><img src="img/Group_33.png" alt="">
             <h1>Позвоните или оставьте заявку</h1>
             <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div>
-            <div class="card_img"><img src="img/Group_33.png" alt="">
+            <div class="card_img">
+            <img src="img/Group_33.png" alt="">
             <h1>Позвоните или оставьте заявку</h1>
             <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div>
             <div class="card_img">
                 <img src="img/Group_33.png" alt="">
             <h1>Позвоните или оставьте заявку</h1>
-            <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p></div>
+            <p>Специалист перезвонит в течение 5 -10 минут. Проконсультирует, сориентирует по срокам, подскажет примерную стоимость.</p>
+            
+                </div>
+                
             </div>
+            
             </div>
+            
+        
+        <div class="rectangle">
+            <h1>Получите стоимость ремонта
+                с материалами и скидкой</h1>
+                <form>
+                    <div class="left_rectangle">
+                    <p>Тип объекта:</p>
+            <label for ="radio1">
+                <p> Новостройка 
+            </label>
+             <input id = "radio1"  name="radio" type="radio" ></p>
+             <label for ="radio2">
+                <p> Вторичная
+            </label>
+             <input id = "radio2"  name="radio" type="radio" >
+             <label for ="radio2">
+                <p> Таунхаус
+            </label>
+             <input id = "radio3"  name="radio" type="radio" ></p></div>
+             <div class="rigth_rectangle">
+                <p>Тип ремонта:</p>
+                <label for ="radio1">
+                    <p> Черновой
+                </label>
+                 <input id = "radio1"  name="radio" type="radio" ></p>
+                 <label for ="radio2">
+                    <p> Капитальный
+                </label>
+                 <input id = "radio2"  name="radio" type="radio" >
+                 <label for ="radio2">
+                    <p> Дизайнерский 
+                </label>
+                 <input id = "radio3"  name="radio" type="radio" ></p></div>
+                 <p>Площадь квартиры:</p>
+                 <label for ="range">
+                    <p> 
+                </label>
+
+                <section class = "section">
+                    <input id="range" type="range" class="range" min="0%" max="100%" value="0%">
+                    <div class="out-1">m</div></section>
+                
+                
+
+                </form>
+                <button class="rectangle_button"> Заказать звонок</button>
+                
+                
         </div>
         </div>
+    
+        
+      
+    </div>
+    
+        
+        
+        
 
         <!-- <div class="photo"></div>
         <h4 class="name">Vlad Ivanov</h4>
@@ -228,6 +312,7 @@
         <img src="img/lan.png" alt="">
     </div>
 </div> -->
+<script src="script.js"></script>
 </main>
 </body>
 </html>
